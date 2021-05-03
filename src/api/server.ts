@@ -1,5 +1,5 @@
-let token = "bdf9ac40aafcd20dbf2ceaef39c4170219906aa63b09309f"
-
+// let token = "bdf9ac40aafcd20dbf2ceaef39c4170219906aa63b09309f"
+let token = "e7f0cae2929203adfac0ee19c5da47dc07370a80fac411a1"
 
 
 export const server_calls = {

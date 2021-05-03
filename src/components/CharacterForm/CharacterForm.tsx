@@ -16,7 +16,7 @@ interface CharacterFormProps {
 
 interface CharacterState {
     name: string;
-    price: string;
+   description: string;
 }
 
 export const CharacterForm = ( props:CharacterFormProps) => {
@@ -50,7 +50,7 @@ export const CharacterForm = ( props:CharacterFormProps) => {
                 </div>
                 <div>
                     <label htmlFor="description">Description</label>
-                    <Input {...register('description')} name="price" placeholder="Description"/>
+                    <Input {...register('description')} name="description" placeholder="Description"/>
                 </div>
                 <div>
                     <label htmlFor="comics_appeared_in">Comics Appeared In</label>
@@ -58,7 +58,7 @@ export const CharacterForm = ( props:CharacterFormProps) => {
                 </div>
                 <div>
                     <label htmlFor="super_power">Super Power</label>
-                    <Input {...register('super_power')} name="flight_time" placeholder="Super Power"/>
+                    <Input {...register('super_power')} name="super_power" placeholder="Super Power"/>
                 </div>
                 <div>
                     <label htmlFor="date_created">Date Created</label>
