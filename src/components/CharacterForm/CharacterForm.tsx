@@ -64,26 +64,7 @@ export const CharacterForm = ( props:CharacterFormProps) => {
                     <label htmlFor="date_created">Date Created</label>
                     <Input {...register('date_created')} name="date_created" placeholder="Date Created"/>
                 </div>
-                {/* <div>
-                    <label htmlFor="dimensions">Dimensions</label>
-                    <Input {...register('dimensions')} name="dimensions" placeholder="Dimensions"/>
-                </div>
-                <div>
-                    <label htmlFor="max_speed">Max Speed</label>
-                    <Input {...register('max_speed')} name="max_speed" placeholder="Max Speed"/>
-                </div>
-                <div>
-                    <label htmlFor="weight">Weight</label>
-                    <Input {...register('weight')} name="weight" placeholder="Weight"/>
-                </div>
-                <div>
-                    <label htmlFor="cost_of_prod">Cost Of Production</label>
-                    <Input {...register('cost_of_prod')} name="cost_of_prod" placeholder="Cost Of Production"/>
-                </div>
-                <div>
-                    <label htmlFor="series">Series</label>
-                    <Input {...register('series')} name="series" placeholder="Series"/>
-                </div> */}
+                
                 <Button type='submit'>Submit</Button>
             </form>
         </div>
